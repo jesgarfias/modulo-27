@@ -11,7 +11,7 @@ const TitleSection=styled.h2`
         font-size: 3em;
     }
 `
-const MainSection=styled.section`
+const SpecialistMainSectionContainer=styled.section`
     display: flex;
     flex-wrap: wrap;
     flex-basis: 400px;
@@ -21,10 +21,10 @@ const MainSection=styled.section`
         row-gap: 1rem;
     }
 `
-const ImgContent=styled.div`
+const SpecialistImgContainer=styled.div`
     width: 16.75rem;
 `
-const ImgElement=styled.img`
+const SpecialistImg=styled.img`
     width: 100%;
 `
 const SpecialistContainer=styled.section`
@@ -50,9 +50,9 @@ const ContactInfo=styled.div`
     display: flex;
     gap: 1rem;
 `
-export{ ImgContent,
-        ImgElement,
+export{ SpecialistImgContainer,
+        SpecialistImg,
         SpecialistContainer, 
-        MainSection, 
+        SpecialistMainSectionContainer, 
         TitleSection, 
         ContactInfo}

@@ -2,7 +2,7 @@ import SalaEspera from "../../assets/SalaEspera.jpg"
 import SalaRadiografica from "../../assets/SalaRadiografia.jpg"
 import EscanerOral from "../../assets/EscanerOral.jpg"
 import { TitleSection } from "../FirstSect/styles"
-import { ImgLast, ImgLatsContainer, ImgSection, ImgUs, InfoSection, LastSection, LastSectionCont, UsEctionContainer, UsEctionContainerSR } from "./styled"
+import { FacilitiesImg, FacilitiesImgContainer, FacilitiesTextContainer,  ImgSection, ImgUs, InfoSection, UsFacilitiesContainer, UsFacilitiesContainerModifie, UsFacilitiesContainerMotion } from "./styled"
 import { motion } from "motion/react"
 import fadeIn from "../../Motion/variants"
 const UsSecondContent=()=>{
@@ -11,7 +11,7 @@ const UsSecondContent=()=>{
             <section>
                 <TitleSection>Nuestras instalaciones</TitleSection>
             </section>
-            <UsEctionContainer>
+            <UsFacilitiesContainer>
                 <ImgSection>
                     <ImgUs src={SalaEspera} alt="Sala de espera" />
                 </ImgSection>
@@ -21,8 +21,8 @@ const UsSecondContent=()=>{
                     Mientras nos preparamos para tu visita, en la Clínica Montes puedes esperarnos cómodamente en nuestra sala equipada con diversas lecturas y televisión.
                     </p>
                 </InfoSection>
-            </UsEctionContainer>
-            <UsEctionContainerSR>
+            </UsFacilitiesContainer>
+            <UsFacilitiesContainerModifie>
                 <InfoSection>
                     <h3>Sala de Radiografía</h3>
                     <p>
@@ -32,12 +32,12 @@ const UsSecondContent=()=>{
                 <ImgSection>
                     < ImgUs src={SalaRadiografica} alt="Sala radiografica"/>
                 </ImgSection>
-            </UsEctionContainerSR>
-            <LastSection>
-                <ImgLatsContainer>
-                    <ImgLast src={EscanerOral} alt="Escaner oral"/>
-                </ImgLatsContainer>   
-                <LastSectionCont as={motion.section}
+            </UsFacilitiesContainerModifie>
+            <UsFacilitiesContainerMotion>
+                <FacilitiesImgContainer>
+                    <FacilitiesImg src={EscanerOral} alt="Escaner oral"/>
+                </FacilitiesImgContainer>   
+                <FacilitiesTextContainer as={motion.section}
                 variants={fadeIn("up",0.2)}
                 initial="hidden"
                 whileInView={"show"}
@@ -47,8 +47,8 @@ const UsSecondContent=()=>{
                     <p>
                         Gracias a este dispositivo podemos obtener modelos milimétricos de tu boca rápidamente sin la necesidad de utilizar las molestas pastas tradicionales.
                     </p>
-                </LastSectionCont> 
-            </LastSection>
+                </FacilitiesTextContainer> 
+            </UsFacilitiesContainerMotion>
         </section>
     )
 }

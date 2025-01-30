@@ -1,5 +1,5 @@
 import Tratamiento from '../../assets/Tratamiento.png'
-import { BanerFirstContent, BanerFirstText, BanerOneMainContainer, BanerSecondText, FirstText, ImgContentFirst, ImgFirst, SpanMark } from './styles';
+import { BanerFirstContent, BanerFirstText, BanerOneMainContainer, BanerSecondText, FirstText, ImgContentFirst, ImgFirst} from './styles';
 const BanerOne=()=>{
     return(
         <BanerOneMainContainer>
@@ -13,7 +13,7 @@ const BanerOne=()=>{
             </BanerFirstContent>
             <BanerSecondText>
                 <FirstText>
-                    <SpanMark>+10 años</SpanMark> atendiendo a pacientes en todo México
+                     <span className='text-cyan-700'>+10 años </span>atendiendo a pacientes en todo México
                 </FirstText>
             </BanerSecondText>
         </BanerOneMainContainer>

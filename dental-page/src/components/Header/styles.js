@@ -9,9 +9,7 @@ const HeaderStyle= styled.header`
     font-family: "Poppins", serif;
     padding: 1rem;
 `
-const HeaderColor=styled.header`
-    background-color: #111;
-`
+
 const HeaderLogo=styled.section`
     display: flex;
     flex-direction: column;

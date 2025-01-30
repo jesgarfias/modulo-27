@@ -2,11 +2,11 @@ import Logo from "../../icons/Logo";
 import Mail from "../../icons/Mail";
 import Phone from "../../icons/Phone";
 import Whatsapp from "../../icons/Whatsapp";
-import { FooterLogo, FooterStyled } from "./Style";
+import { FooterLogo, FooterStyle } from "./Style";
 
 const Footer =()=>{
     return(
-        <FooterStyled>
+        <FooterStyle>
             <FooterLogo>
                 <Logo/>
                 <p>CLinica dental</p>
@@ -40,7 +40,7 @@ const Footer =()=>{
                     <p>Obtén una membresía</p>
                 </section>
             </section>
-        </FooterStyled>
+        </FooterStyle>
     )
 }
 export default Footer;

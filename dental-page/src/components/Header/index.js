@@ -4,7 +4,7 @@ import { HeaderContact, HeaderDropMenu, HeaderLink, HeaderLogo, HeaderMenuIcon, 
 import Phone from "../../icons/Phone";
 import { useState } from "react";
 import Menu from "../../icons/Menu";
-import { motion } from "motion/react";
+
 
 
 const Header=()=>{

@@ -16,7 +16,7 @@ width: 100%;
         width: 100%;
     }  
 `
-const ContacMainSec=styled.section`
+const ContacMainInfoContainer=styled.section`
 display: flex;
 margin: 1rem 1rem;
 justify-content: space-around;
@@ -28,7 +28,7 @@ row-gap: 2.5rem;
         flex-direction: column;
     }
 `
-const ContacSecondarySec=styled.section`
+const ContacInfoText=styled.section`
 display: flex;
 flex-direction: column;
 row-gap: 2rem;
@@ -58,8 +58,8 @@ const DateButton=styled.button`
 `
 export{
     Map, 
-    ContacMainSec, 
-    ContacSecondarySec, 
+    ContacMainInfoContainer, 
+    ContacInfoText, 
     DateButton,
     MapContainer
 };

@@ -1,5 +1,5 @@
 import styled from "styled-components";
-const FooterStyled=styled.footer`
+const FooterStyle=styled.footer`
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -18,4 +18,4 @@ justify-content: center;
 align-items: center;
 `
 
-export {FooterStyled, FooterLogo};
+export {FooterStyle, FooterLogo};

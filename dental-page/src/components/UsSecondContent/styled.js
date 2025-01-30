@@ -1,6 +1,6 @@
 import styled from "styled-components"
 
-const UsEctionContainer=styled.section`
+const UsFacilitiesContainer=styled.section`
  display: flex;
  margin-bottom: 3rem;
  padding: 2rem;
@@ -10,7 +10,7 @@ const UsEctionContainer=styled.section`
  }
 
 `
-const UsEctionContainerSR=styled.section`
+const UsFacilitiesContainerModifie=styled.section`
  display: flex;
  margin-bottom: 3rem;
  padding: 2rem;
@@ -41,7 +41,7 @@ const ImgUs=styled.img`
     width: 100%;
     object-fit: cover;
 `
-const LastSection=styled.section`
+const UsFacilitiesContainerMotion=styled.section`
     position: relative;
     display: flex;
     justify-content: center;
@@ -49,17 +49,17 @@ const LastSection=styled.section`
     margin-bottom: 3rem;
 
 `
-const ImgLatsContainer=styled.section`
+const FacilitiesImgContainer=styled.section`
     width: 80%;
     margin: 0 auto;
     background-color: #8ba5b1;
     border-radius: 48px;
 `
-const ImgLast=styled.img`
+const FacilitiesImg=styled.img`
     opacity: 0.25;
     border-radius: 48px;
 `
-const LastSectionCont=styled.section`
+const FacilitiesTextContainer=styled.section`
     position: absolute;
     width: 62%;
     text-align: center;
@@ -84,13 +84,13 @@ const LastSectionCont=styled.section`
     }
 `
 export {
-    UsEctionContainer, 
-    UsEctionContainerSR,
+    UsFacilitiesContainer,
+    UsFacilitiesContainerModifie,
+    UsFacilitiesContainerMotion,
     InfoSection,
     ImgSection, 
     ImgUs, 
-    ImgLatsContainer, 
-    ImgLast,
-    LastSectionCont, 
-    LastSection,
+    FacilitiesImgContainer,
+    FacilitiesImg,
+    FacilitiesTextContainer,
 };

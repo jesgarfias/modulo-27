@@ -1,5 +1,4 @@
 import { useState } from "react";
-import { QuestionDiv } from "./styled";
 import { QuestionContent } from "./QuestionContent";
 import { TitleSection } from "../FirstSect/styles";
 

@@ -40,9 +40,6 @@ const BanerSecondText=styled.section`
 display: flex;
 justify-content: center;
 `
-const SpanMark=styled.span`
-    color: #70abc7;
-`
 const FirstText=styled.p`
     font-family: "Poppins",serif;
     font-size: 3em;
@@ -60,6 +57,5 @@ export {BanerOneMainContainer,
         BanerFirstText, 
         ImgContentFirst, 
         ImgFirst, 
-        SpanMark,
         FirstText,
         BanerSecondText};
